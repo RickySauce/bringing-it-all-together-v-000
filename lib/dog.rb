@@ -70,7 +70,7 @@ class Dog
        :name => dog_data[1],
        :breed => dog_data[2]
      }
-     dog = Dog.new()
+     dog = Dog.new(dog_data)
    else
      dog = self.create(attributes)
    end
