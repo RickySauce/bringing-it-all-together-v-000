@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.drop_table
-    db[:conn].execute("DROP TABLE dogs")
+    DB[:conn].execute("DROP TABLE dogs")
   end
 
 end
