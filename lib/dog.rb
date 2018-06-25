@@ -66,6 +66,7 @@ class Dog
    if !dog.empty?
      dog_data = dog[0]
      dog = Dog.new(dog_data)
+     binding.pry
    else
      dog = self.create(attributes)
    end
