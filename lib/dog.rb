@@ -47,7 +47,6 @@ class Dog
       :id => row[0]
     }
     self.new(new_dog)
-    binding.pry
   end
 
   def self.find_by_id(id)
