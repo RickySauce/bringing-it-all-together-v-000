@@ -70,7 +70,7 @@ class Dog
      dog = self.create(attributes)
    end
    dog
-    
+
   end
-  
+
 end
