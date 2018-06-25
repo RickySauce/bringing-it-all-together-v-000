@@ -38,4 +38,15 @@ class Dog
     dog
   end
 
+  def self.new_from_db(row)
+    new_dog = {
+      :name => row[1]
+      :breed => row[2]
+      :id => row[0]
+    }
+    
+  end
+
+  def self.find_by_id
+  end
 end
